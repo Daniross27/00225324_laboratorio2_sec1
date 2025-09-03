@@ -1,9 +1,9 @@
 .grid-container {
 display: grid;
-  grid-template-columns: 2fr 1fr 2fr; /* izquierda y derecha más anchas */
-  grid-template-rows: repeat(3, 1fr); /* tres filas iguales */
+  grid-template-columns: 2fr 1fr 2fr; 
+  grid-template-rows: repeat(3, 1fr); 
 gap: 10px;
-  height: 500px; /* alto de la cuadrícula (puedes ajustar) */
+  height: 500px; 
 }
 
 .item {
