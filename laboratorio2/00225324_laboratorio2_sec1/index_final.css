@@ -1,0 +1,20 @@
+.grid-container {
+display: grid;
+  grid-template-columns: 2fr 1fr 2fr; 
+  grid-template-rows: repeat(3, 1fr); 
+gap: 10px;
+  height: 500px; 
+}
+
+.item {
+background: rgb(105, 105, 215);
+padding: 20px;
+text-align: center;
+border-radius: 20px;
+}
+
+.img-scale {
+width: auto;
+height: 270px;
+object-fit: contain;
+}
